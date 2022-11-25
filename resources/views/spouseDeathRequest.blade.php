@@ -116,22 +116,22 @@
         <div class="tbl-content">
             <table cellpadding="0" cellspacing="0" border="0">
                 <tbody>
-                    @foreach ($spouseDeath as $spouseDeath)
+                    @foreach ($spouse_death as $spouse_death)
                         <tr style="  border: 1px solid black">
-                            <td>{{ $spouseDeath->sex }}</td>
-                            <td>{{ $spouseDeath->fname }}</td>
-                            <td>{{ $spouseDeath->mname }}</td>
-                            <td>{{ $spouseDeath->lname }}</td>
-                            <td>{{ $spouseDeath->idtype }}</td>
-                            <td>{{ $spouseDeath->spousefname }}</td>
-                            <td>{{ $spouseDeath->spousemname }}</td>
-                            <td>{{ $spouseDeath->spouselname }}</td>
-                            <td>{{ $spouseDeath->deathplace }}</td>
-                            <td>{{ $spouseDeath->lateReg }}</td>
-                            <td>{{ $spouseDeath->purpose }}</td>
-                            <td>{{ $spouseDeath->phone }}</td>
-                            <td>{{ $spouseDeath->status }}</td>
-                            <td><a href={{ 'editSpouseDeath/' . $spouseDeath['id'] }}>Update</a>
+                            <td>{{ $spouse_death->sex }}</td>
+                            <td>{{ $spouse_death->fname }}</td>
+                            <td>{{ $spouse_death->mname }}</td>
+                            <td>{{ $spouse_death->lname }}</td>
+                            <td>{{ $spouse_death->idtype }}</td>
+                            <td>{{ $spouse_death->spousefname }}</td>
+                            <td>{{ $spouse_death->spousemname }}</td>
+                            <td>{{ $spouse_death->spouselname }}</td>
+                            <td>{{ $spouse_death->deathplace }}</td>
+                            <td>{{ $spouse_death->lateReg }}</td>
+                            <td>{{ $spouse_death->purpose }}</td>
+                            <td>{{ $spouse_death->phone }}</td>
+                            <td>{{ $spouse_death->status }}</td>
+                            <td><a href={{ 'editSpouseDeath/' . $spouse_death['id'] }}>Update</a>
                         </tr>
                     @endforeach
                 </tbody>

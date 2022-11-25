@@ -9,7 +9,7 @@
     <link rel="icon" href="{{ url('image/Cebu Seal.png') }}">
     <script src="{{ URL::asset('js/home.js') }}"></script>
     <link rel="stylesheet" href="{{ URL::asset('css/birthForm.css') }}" />
-    <title>Cebu Registration</title>
+    <title>Cenomar Request</title>
 
 </head>
 

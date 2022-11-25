@@ -134,8 +134,6 @@
                             <li><a href="#">+(63)955 480 0304</a></li>
                             <li><a href="#">+123 - 345 - 567</a></li>
                             <li><a href="#">https://www.cebucity.gov.ph/</a></li>
-                            <img src="./image/map.png" class="map" alt="">
-
                         </ul>
                     </div>
                 </div>

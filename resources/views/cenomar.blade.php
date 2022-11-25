@@ -9,7 +9,7 @@
     <link rel="icon" href="{{ url('image/Cebu Seal.png') }}">
     <script src="{{ URL::asset('js/home.js') }}"></script>
     <link rel="stylesheet" href="{{ URL::asset('css/marriageCert.css') }}" />
-    <title>Marriage Certificate</title>
+    <title>CENOMAR</title>
 
 </head>
 

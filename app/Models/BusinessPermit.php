@@ -8,7 +8,7 @@ use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 class BusinessPermit extends Eloquent
 {
     protected $connection = 'mongodb';
-    protected $collection = 'businessPermit'; //collection sa database
+    protected $collection = 'business_permit'; //collection sa database
 
     protected $fillable = [
         'businessType',

@@ -27,10 +27,6 @@ use App\Http\Controllers\RecordAppointmentController;
 use App\Http\Controllers\RecordSuggestionsController;
 
 
-
-
-
-
 // use App\Http\Controllers\StaffHomeController;
 use Illuminate\Support\Facades\Mail;
 use App\Http\Controllers\MailController;
@@ -127,9 +123,7 @@ Route::get('/deathCertRequests', function () {
     return view('deathCertRequests');
 });
 
-
 Auth::routes();
-
 
 //Route for database functions //makita sa controller ang method
 //for Birth Cert
@@ -190,7 +184,7 @@ Route::get('addSuggestions', [SuggestionsController::class, 'create']);
 Route::post('addSuggestions', [SuggestionsController::class, 'store']);
 
 
-// Route for the function after filling out the form // gicall ang index function sa birthcontroller nga birthSucces angv mudisplay
+// Route for the function after filling out the form // gicall ang index function sa birthcontroller nga birthSucces ang mudisplay
 Route::get('birthDetails', [BirthController::class, 'index']); 
 Route::get('marriageDetails', [MarriageController::class, 'index']);
 Route::get('cenomarDetails', [CenomarController::class, 'index']);
@@ -220,10 +214,7 @@ Route::get('/appointmentRequest', [RecordAppointmentController::class, 'index'])
 Route::get('/suggestionsRequest', [RecordSuggestionsController::class, 'index'])->name('suggestionsRequest'); 
 
 
-
 // Route::get('/marriageHome', [RecordController::class, 'marriageHome'])->name('marriageHome'); 
-
-
 
 // Route::get('/dashboard', function () {
 //     return view('staffHome');

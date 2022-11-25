@@ -137,43 +137,43 @@
 
             <table cellpadding="0" cellspacing="0" border="0">
                 <tbody>
-                    @foreach ($businessPermit as $businessPermit)
+                    @foreach ($business_permit as $business_permit)
                         <tr style="  border: 1px solid black">
-                            <td>{{ $businessPermit->businessType }}</td>
-                            <td>{{ $businessPermit->dtiNo }}</td>
-                            <td>{{ $businessPermit->paymentMode }}</td>
-                            <td>{{ $businessPermit->applicationDate }}</td>
-                            <td>{{ $businessPermit->tin }}</td>
-                            <td>{{ $businessPermit->ammendFrom }}</td>
-                            <td>{{ $businessPermit->ammendTo }}</td>
-                            <td>{{ $businessPermit->fname }}</td>
-                            <td>{{ $businessPermit->mname }}</td>
-                            <td>{{ $businessPermit->lname }}</td>
-                            <td>{{ $businessPermit->tradeName }}</td>
-                            <td>{{ $businessPermit->incentive }}</td>
-                            <td>{{ $businessPermit->businessAdd }}</td>
-                            <td>{{ $businessPermit->postalCode }}</td>
-                            <td>{{ $businessPermit->businessHotline }}</td>
-                            <td>{{ $businessPermit->ownerAdd }}</td>
-                            <td>{{ $businessPermit->ownerPostalCode }}</td>
-                            <td>{{ $businessPermit->ownerHotline }}</td>
-                            <td>{{ $businessPermit->contactPerson }}</td>
-                            <td>{{ $businessPermit->emergencyContact }}</td>
-                            <td>{{ $businessPermit->businessArea }}</td>
-                            <td>{{ $businessPermit->employeeTotal }}</td>
-                            <td>{{ $businessPermit->lessorName }}</td>
-                            <td>{{ $businessPermit->lessorAdd}}</td>
-                            <td>{{ $businessPermit->lessorPhone }}</td>
-                            <td>{{ $businessPermit->lessorEmail }}</td>
-                            <td>{{ $businessPermit->monthlyRent }}</td>
-                            <td>{{ $businessPermit->filledupFile }}</td>
-                            <td>{{ $businessPermit->occupancyFile }}</td>
-                            <td>{{ $businessPermit->brgyClearanceFile }}</td>
-                            <td>{{ $businessPermit->sanitaryFile }}</td>
-                            <td>{{ $businessPermit->fireSafetyFile }}</td>
-                            <td>{{ $businessPermit->otherFile }}</td>
-                            <td>{{ $businessPermit->status }}</td>
-                            <td><a href={{ 'editBusiness/' . $businessPermit['id'] }}>Update</a>
+                            <td>{{ $business_permit->businessType }}</td>
+                            <td>{{ $business_permit->dtiNo }}</td>
+                            <td>{{ $business_permit->paymentMode }}</td>
+                            <td>{{ $business_permit->applicationDate }}</td>
+                            <td>{{ $business_permit->tin }}</td>
+                            <td>{{ $business_permit->ammendFrom }}</td>
+                            <td>{{ $business_permit->ammendTo }}</td>
+                            <td>{{ $business_permit->fname }}</td>
+                            <td>{{ $business_permit->mname }}</td>
+                            <td>{{ $business_permit->lname }}</td>
+                            <td>{{ $business_permit->tradeName }}</td>
+                            <td>{{ $business_permit->incentive }}</td>
+                            <td>{{ $business_permit->businessAdd }}</td>
+                            <td>{{ $business_permit->postalCode }}</td>
+                            <td>{{ $business_permit->businessHotline }}</td>
+                            <td>{{ $business_permit->ownerAdd }}</td>
+                            <td>{{ $business_permit->ownerPostalCode }}</td>
+                            <td>{{ $business_permit->ownerHotline }}</td>
+                            <td>{{ $business_permit->contactPerson }}</td>
+                            <td>{{ $business_permit->emergencyContact }}</td>
+                            <td>{{ $business_permit->businessArea }}</td>
+                            <td>{{ $business_permit->employeeTotal }}</td>
+                            <td>{{ $business_permit->lessorName }}</td>
+                            <td>{{ $business_permit->lessorAdd}}</td>
+                            <td>{{ $business_permit->lessorPhone }}</td>
+                            <td>{{ $business_permit->lessorEmail }}</td>
+                            <td>{{ $business_permit->monthlyRent }}</td>
+                            <td>{{ $business_permit->filledupFile }}</td>
+                            <td>{{ $business_permit->occupancyFile }}</td>
+                            <td>{{ $business_permit->brgyClearanceFile }}</td>
+                            <td>{{ $business_permit->sanitaryFile }}</td>
+                            <td>{{ $business_permit->fireSafetyFile }}</td>
+                            <td>{{ $business_permit->otherFile }}</td>
+                            <td>{{ $business_permit->status }}</td>
+                            <td><a href={{ 'editBusiness/' . $business_permit['id'] }}>Update</a>
                         </tr>
                     @endforeach
                 </tbody>

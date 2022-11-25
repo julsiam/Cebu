@@ -27,7 +27,7 @@ class RecordSpouseDeathController extends Controller
 
     public function index()
     {
-        $spouseDeath = SpouseDeath::all();
-        return view('spouseDeathRequest', compact('spouseDeath')); //databasename
+        $spouse_death = SpouseDeath::all();
+        return view('spouseDeathRequest', compact('spouse_death')); //databasename
     }
 }

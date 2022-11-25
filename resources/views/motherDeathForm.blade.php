@@ -9,7 +9,7 @@
     <link rel="icon" href="{{ url('image/Cebu Seal.png') }}">
     <script src="{{ URL::asset('js/home.js') }}"></script>
     <link rel="stylesheet" href="{{ URL::asset('css/deathForm.css') }}" />
-    <title>Cebu Registration</title>
+    <title>Death Certificate</title>
 
 </head>
 
@@ -218,7 +218,7 @@
                                         Middle Name<span class="req"></span>
                                     </label>
                                     <input name="mmname" id="Mother Middle Name" minlength="2" maxlength="25"
-                                        type="text" required autocomplete="off" />
+                                        type="text" />
                                 </div>
                                 <div class="field-wrap">
                                     <label>

@@ -116,22 +116,22 @@
         <div class="tbl-content">
             <table cellpadding="0" cellspacing="0" border="0">
                 <tbody>
-                    @foreach ($fatherDeath as $fatherDeath)
+                    @foreach ($father_death as $father_death)
                         <tr style="  border: 1px solid black">
-                            <td>{{ $fatherDeath->sex }}</td>
-                            <td>{{ $fatherDeath->fname }}</td>
-                            <td>{{ $fatherDeath->mname }}</td>
-                            <td>{{ $fatherDeath->lname }}</td>
-                            <td>{{ $fatherDeath->idtype }}</td>
-                            <td>{{ $fatherDeath->ffname }}</td>
-                            <td>{{ $fatherDeath->fmname }}</td>
-                            <td>{{ $fatherDeath->flname }}</td>
-                            <td>{{ $fatherDeath->deathplace }}</td>
-                            <td>{{ $fatherDeath->lateReg }}</td>
-                            <td>{{ $fatherDeath->purpose }}</td>
-                            <td>{{ $fatherDeath->phone }}</td>
-                            <td>{{ $fatherDeath->status }}</td>
-                            <td><a href={{ 'editFatherDeath/' . $fatherDeath['id'] }}>Update</a>
+                            <td>{{ $father_death->sex }}</td>
+                            <td>{{ $father_death->fname }}</td>
+                            <td>{{ $father_death->mname }}</td>
+                            <td>{{ $father_death->lname }}</td>
+                            <td>{{ $father_death->idtype }}</td>
+                            <td>{{ $father_death->ffname }}</td>
+                            <td>{{ $father_death->fmname }}</td>
+                            <td>{{ $father_death->flname }}</td>
+                            <td>{{ $father_death->deathplace }}</td>
+                            <td>{{ $father_death->lateReg }}</td>
+                            <td>{{ $father_death->purpose }}</td>
+                            <td>{{ $father_death->phone }}</td>
+                            <td>{{ $father_death->status }}</td>
+                            <td><a href={{ 'editFatherDeath/' . $father_death['id'] }}>Update</a>
                         </tr>
                     @endforeach
                 </tbody>

@@ -27,7 +27,7 @@ class RecordFatherDeathController extends Controller
 
     public function index()
     {
-        $fatherDeath = FatherDeath::all();
-        return view('fatherDeathRequest', compact('fatherDeath')); //databasename
+        $father_death = FatherDeath::all();
+        return view('fatherDeathRequest', compact('father_death')); //databasename
     }
 }

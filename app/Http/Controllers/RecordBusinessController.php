@@ -28,8 +28,8 @@ class RecordBusinessController extends Controller
 
     public function index()
     {
-        $businessPermit = BusinessPermit::all();
-        return view('businessPermitRequest', compact('businessPermit')); //databasename
+        $business_permit = BusinessPermit::all();
+        return view('businessPermitRequest', compact('business_permit')); //databasename
     }
 
 }

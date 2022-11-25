@@ -64,8 +64,8 @@ class BusinessController extends Controller
 
     public function showBusinessData($id)
     {
-        $businessPermit = BusinessPermit::find($id);
-        return view('statusBusinessPermit', ['businessPermit' => $businessPermit]);
+        $business_permit = BusinessPermit::find($id);
+        return view('statusBusinessPermit', ['business_permit' => $business_permit]);
     }
 
     public function editBusiness(Request $request)

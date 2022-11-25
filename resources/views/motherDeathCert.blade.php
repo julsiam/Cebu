@@ -9,7 +9,7 @@
     <link rel="icon" href="{{ url('image/Cebu Seal.png') }}">
     <script src="{{ URL::asset('js/home.js') }}"></script>
     <link rel="stylesheet" href="{{ URL::asset('css/birthCert.css') }}" />
-    <title>Cebu Registration</title>
+    <title>Death Certificate</title>
 
 </head>
 
